@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siya Pandey - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="bg-gray-800 py-4">
+        <nav class="container mx-auto flex justify-end space-x-4">
+            <a href="#about" class="text-gray-300 hover:text-white">About</a>
+            <a href="#skills" class="text-gray-300 hover:text-white">Skills</a>
+            <a href="#projects" class="text-gray-300 hover:text-white">Projects</a>
+            <a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+
+        <section id="hero" class="text-center py-12">
+            <div class="max-w-md mx-auto">
+                <img src="/images/siya.jpg" alt="Siya Pandey" class="rounded-full mx-auto w-40 h-40 mb-4">
+                <h1 class="text-4xl font-bold mb-2">Hi, I'm Siya Pandey</h1>
+                <p class="text-xl text-gray-600">Full Stack Developer</p>
+                <a href="#contact"
+                    class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-full font-semibold transition duration-300">Get
+                    in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="py-12">
+            <div class="max-w-lg mx-auto">
+                <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                <p class="text-xl text-gray-700">I'm a passionate full stack developer with expertise in creating robust
+                    and scalable web applications.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="py-12">
+            <div class="max-w-lg mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Skills</h2>
+                <ul class="text-xl text-gray-700">
+                    <li><i class="fas fa-laptop-code text-blue-500 mr-2"></i> Front-end Development: HTML5, CSS3,
+                        JavaScript</li>
+                    <li><i class="fas fa-server text-blue-500 mr-2"></i> Back-end Development: Node.js, Express</li>
+                    <li><i class="fas fa-database text-blue-500 mr-2"></i> Database: MongoDB, MySQL</li>
+                    <li><i class="fas fa-tools text-blue-500 mr-2"></i> Frameworks: React, Angular, Vue.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="py-12">
+            <div class="max-w-lg mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-2xl font-bold mb-2">It's a Dare</h3>
+                        <img src="images/dare.png" alt="It's a Dare" class="w-full h-40 object-cover mb-4">
+                        <p class="text-gray-700">A mobile app that allows users to challenge their friends with exciting
+                            dares and track their progress.</p>
+                        <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full font-semibold transition duration-300">Learn
+                            More</a>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-2xl font-bold mb-2">Sing Together</h3>
+                        <img src="images/music.jpg" alt="Sing Together" class="w-full h-40 object-cover mb-4">
+                        <p class="text-gray-700">An interactive web application that enables users to sing together in
+                            a virtual group, providing a fun and collaborative singing experience.</p>
+                        <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full font-semibold transition duration-300">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-12">
+            <div class="max-w-lg mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Contact</h2>
+                <p class="text-xl text-gray-700">You can reach me at <a href="mailto:siyapandey64@gmail.com"
+                        class="text-blue-500">siyapandey64@gmail.com</a> or through the contact form below:</p>
+                <form id="contact-form" class="mt-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <input type="text" id="name" placeholder="Your Name"
+                            class="w-full p-4 text-lg border-gray-300 rounded">
+                        <input type="email" id="email" placeholder="Your Email"
+                            class="w-full p-4 text-lg border-gray-300 rounded">
+                        <textarea id="message" placeholder="Your Message"
+                            class="w-full p-4 text-lg border-gray-300 rounded"></textarea>
+                        <button type="submit"
+                            class="submit-button px-8 py-3 text-lg font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition duration-300">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 py-4 text-center text-gray-300">
+        <div class="container mx-auto">
+            <p>&copy; 2023 Siya Pandey</p>
+            <div class="flex justify-center mt-4">
+                <a href="https://www.linkedin.com/in/siya-pandey64/" class="mx-2"><i
+                        class="fab fa-linkedin text-gray-300 hover:text-white text-2xl"></i></a>
+                <a href="https://www.instagram.com/siya_pandey31/" class="mx-2"><i
+                        class="fab fa-instagram text-gray-300 hover:text-white text-2xl"></i></a>
+                <a href="https://github.com/siya-pandey31" class="mx-2"><i
+                        class="fab fa-github text-gray-300 hover:text-white text-2xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
